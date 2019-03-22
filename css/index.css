@@ -1,0 +1,866 @@
+.lt {
+  float: left;
+}
+.rt {
+  float: right;
+}
+html,
+body,
+.page_box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+section.firstPage {
+  z-index: 666;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url("../imgs/back.jpg") no-repeat center;
+  background-size: 100% 100%;
+  background-position: 0 0;
+}
+section.firstPage .layer {
+  width: 100%;
+  height: 90%;
+  margin-top: 10%;
+  position: relative;
+}
+section.firstPage .layer ul {
+  width: 100%;
+  height: 100%;
+}
+section.firstPage .layer ul li {
+  width: 100%;
+  height: 20%;
+  background: rgba(8, 161, 239, 0.3);
+}
+section.firstPage .layer .img_box {
+  width: 80%;
+  height: 85%;
+  position: absolute;
+  top: 0.8rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+section.firstPage .layer .img_box img {
+  width: 100%;
+  height: 100%;
+}
+section.firstPage .layer .word {
+  width: 100%;
+  color: #fff;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 28%;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  padding-left: 0.2rem;
+}
+section.firstPage .layer .word_en {
+  width: 100%;
+  color: #fff;
+  font-size: 0.6rem;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+}
+section.firstPage .layer .word_name {
+  width: 40%;
+  color: #fff;
+  font-size: 0.4rem;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 53%;
+  text-align: center;
+  border: 2px solid #fff;
+  letter-spacing: 0.3rem;
+  padding-left: 0.3rem;
+}
+section.firstPage .layer .job_box {
+  width: 45%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 65%;
+  text-align: center;
+}
+section.firstPage .layer .job_box i {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: url("../imgs/write.png") no-repeat center;
+  background-size: 100% 100%;
+  float: left;
+}
+section.firstPage .layer .job_box p {
+  color: #fff;
+  font-size: 0.3rem;
+}
+section.firstPage .layer .time_box {
+  width: 20%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 72%;
+  text-align: center;
+}
+section.firstPage .layer .time_box img {
+  width: 100%;
+  height: 100%;
+}
+section.secondPage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url("../imgs/backup.png") no-repeat center;
+  background-size: 100% 100%;
+}
+section.secondPage .content {
+  width: 100%;
+  height: 90%;
+  margin-top: 10%;
+  position: relative;
+}
+section.secondPage .content ul {
+  width: 100%;
+  height: 100%;
+}
+section.secondPage .content ul li {
+  width: 100%;
+  height: 20%;
+  background: rgba(8, 161, 239, 0.3);
+}
+section.secondPage .content .content_til {
+  width: 80%;
+  position: absolute;
+  top: 8%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+section.secondPage .content .content_til p {
+  color: #fff;
+  font-size: 0.6rem;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+section.secondPage .content .content_til span {
+  display: inline-block;
+  width: 0.04rem;
+  height: 0.5rem;
+  background-color: #fff;
+  margin: 0 0.1rem;
+}
+section.secondPage .content .common {
+  width: 80%;
+  background-color: #fff;
+  color: #0e4765;
+}
+section.secondPage .content .common p {
+  box-sizing: border-box;
+  font-size: 0.3rem;
+  padding: 0.2rem 0 0.2rem 0.2rem;
+  float: left;
+}
+section.secondPage .content .common .com_p2 {
+  width: 3.2rem;
+  text-align: left;
+}
+section.secondPage .content .one {
+  position: absolute;
+  top: 28%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+section.secondPage .content .two {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+section.secondPage .content .three {
+  position: absolute;
+  top: 52%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+section.secondPage .content .four {
+  position: absolute;
+  top: 64%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+section.threePage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url("../imgs/backup.png") no-repeat center;
+  background-size: 100% 100%;
+}
+section.threePage .content {
+  width: 100%;
+  height: 90%;
+  margin-top: 10%;
+  position: relative;
+}
+section.threePage .content ul {
+  width: 100%;
+  height: 100%;
+}
+section.threePage .content ul li {
+  width: 100%;
+  height: 20%;
+  background: rgba(8, 161, 239, 0.3);
+}
+section.threePage .content .content_til {
+  width: 80%;
+  position: absolute;
+  top: 8%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+section.threePage .content .content_til p {
+  color: #fff;
+  font-size: 0.4rem;
+  display: inline-block;
+  padding-bottom: 0.28rem;
+}
+section.threePage .content .content_til span {
+  display: inline-block;
+  width: 0.04rem;
+  height: 0.35rem;
+  background-color: #fff;
+  margin: 0 0.1rem;
+}
+section.threePage .content .left {
+  border: 1px solid #fff;
+  position: absolute;
+  top: 23%;
+  left: 10%;
+  text-align: center;
+}
+section.threePage .content .left p {
+  color: #fff;
+  font-size: 0.3rem;
+  padding: 0.3rem 0.3rem;
+}
+section.threePage .content .right {
+  border: 1px solid #fff;
+  position: absolute;
+  top: 23%;
+  right: 10%;
+  width: 55%;
+}
+section.threePage .content .right p {
+  color: #fff;
+  font-size: 0.3rem;
+  padding: 0.3rem 0.4rem;
+}
+section.fourPage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url("../imgs/backup.png") no-repeat center;
+  background-size: 100% 100%;
+}
+section.fourPage .content {
+  width: 100%;
+  height: 90%;
+  margin-top: 10%;
+  position: relative;
+}
+section.fourPage .content ul {
+  width: 100%;
+  height: 100%;
+}
+section.fourPage .content ul li {
+  width: 100%;
+  height: 20%;
+  background: rgba(8, 161, 239, 0.3);
+}
+section.fourPage .content .content_til {
+  width: 80%;
+  position: absolute;
+  top: 8%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+section.fourPage .content .content_til p {
+  color: #fff;
+  font-size: 0.4rem;
+  display: inline-block;
+  padding-bottom: 0.28rem;
+}
+section.fourPage .content .content_til span {
+  display: inline-block;
+  width: 0.04rem;
+  height: 0.35rem;
+  background-color: #fff;
+  margin: 0 0.1rem;
+}
+section.fourPage .content .honorRight,
+section.fourPage .content .honorLeft {
+  float: left;
+}
+section.fourPage .content .honorLeft {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+section.fourPage .content .honorRight {
+  position: absolute;
+  top: 21.5%;
+  right: 10%;
+}
+section.fourPage .content .commonHonor {
+  background-color: #fff;
+  color: #0e4765;
+  margin-top: 0.7rem;
+}
+section.fourPage .content .commonHonor p {
+  font-size: 0.3rem;
+  padding: 0.1rem 0.28rem;
+}
+section.fourPage .content .splitHr {
+  display: inline-block;
+  width: 0.08rem;
+  height: 7rem;
+  background-color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+}
+section.fivePage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url("../imgs/backup.png") no-repeat center;
+  background-size: 100% 100%;
+}
+section.fivePage .content {
+  width: 100%;
+  height: 90%;
+  margin-top: 10%;
+  position: relative;
+}
+section.fivePage .content ul {
+  width: 100%;
+  height: 100%;
+}
+section.fivePage .content ul li {
+  width: 100%;
+  height: 20%;
+  background: rgba(8, 161, 239, 0.3);
+}
+section.fivePage .content .content_til {
+  width: 80%;
+  position: absolute;
+  top: 8%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+section.fivePage .content .content_til p {
+  color: #fff;
+  font-size: 0.34rem;
+  display: inline-block;
+  padding-bottom: 0.28rem;
+}
+section.fivePage .content .content_til span {
+  display: inline-block;
+  width: 0.04rem;
+  height: 0.35rem;
+  background-color: #fff;
+  margin: 0 0.1rem;
+}
+section.fivePage .content .one_box {
+  width: 80%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+section.fivePage .content .one_box .desc_box {
+  font-size: 0.26rem;
+  color: #fff;
+  float: left;
+}
+section.fivePage .content .two_box {
+  width: 80%;
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+section.fivePage .content .two_box .desc_box {
+  font-size: 0.26rem;
+  color: #fff;
+  float: left;
+}
+section.sixPage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url("../imgs/backup.png") no-repeat center;
+  background-size: 100% 100%;
+}
+section.sixPage .content {
+  width: 100%;
+  height: 90%;
+  margin-top: 10%;
+  position: relative;
+}
+section.sixPage .content ul {
+  width: 100%;
+  height: 100%;
+}
+section.sixPage .content ul li {
+  width: 100%;
+  height: 20%;
+  background: rgba(8, 161, 239, 0.3);
+}
+section.sixPage .content .content_til {
+  width: 80%;
+  position: absolute;
+  top: 8%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+section.sixPage .content .content_til p {
+  color: #fff;
+  font-size: 0.4rem;
+  display: inline-block;
+  padding-bottom: 0.28rem;
+}
+section.sixPage .content .content_til span {
+  display: inline-block;
+  width: 0.04rem;
+  height: 0.35rem;
+  background-color: #fff;
+  margin: 0 0.1rem;
+}
+section.sixPage .content .hobby_box {
+  position: absolute;
+  width: 60%;
+  top: 30%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+section.sixPage .content .hobby_box img {
+  width: 100%;
+  height: 100%;
+}
+section.sixPage .content .hobby_box p {
+  text-align: center;
+  position: absolute;
+  top: 38%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  font-size: 0.5rem;
+}
+section.sixPage .content .hobby_common p {
+  color: #fff;
+  font-size: 0.3rem;
+}
+section.sixPage .content .hob1 {
+  position: absolute;
+  top: 27%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+section.sixPage .content .hob2 {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  text-align: center;
+}
+section.sixPage .content .hob3 {
+  position: absolute;
+  top: 35%;
+  right: 15%;
+  text-align: center;
+}
+section.sixPage .content .hob4 {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  text-align: center;
+}
+section.sixPage .content .hob5 {
+  position: absolute;
+  top: 68%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+section.sixPage .content .hob6 {
+  position: absolute;
+  top: 60%;
+  right: 15%;
+  text-align: center;
+}
+.arrow_box {
+  z-index: 666;
+  width: 8%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 4%;
+  text-align: center;
+  font-weight: bold;
+  -webkit-animation: arrow 1.2s 0.8s ease-in-out infinite;
+  animation: arrow 1.2s 0.8s ease-in-out infinite;
+}
+.arrow_box img {
+  width: 100%;
+  height: 100%;
+}
+/* 动画效果 */
+/* #page1,#page2,#page3,#page4,#page5,#page6{
+  -webkit-animation: tab 2s ease;
+  animation: tab 2s ease;
+} */
+#page1 .layer ul li:nth-child(1),
+#page2 .content ul li:nth-child(1),
+#page3 .content ul li:nth-child(1),
+#page4 .content ul li:nth-child(1),
+#page5 .content ul li:nth-child(1),
+#page6 .content ul li:nth-child(1) {
+  -webkit-animation: lis 2s ease;
+  animation: lis 2s ease;
+}
+#page1 .layer ul li:nth-child(2),
+#page2 .content ul li:nth-child(2),
+#page3 .content ul li:nth-child(2),
+#page4 .content ul li:nth-child(2),
+#page5 .content ul li:nth-child(2),
+#page6 .content ul li:nth-child(2) {
+  -webkit-animation: lis 2.5s ease;
+  animation: lis 2.5s ease;
+}
+#page1 .layer ul li:nth-child(3),
+#page2 .content ul li:nth-child(3),
+#page3 .content ul li:nth-child(3),
+#page4 .content ul li:nth-child(3),
+#page5 .content ul li:nth-child(3),
+#page6 .content ul li:nth-child(3) {
+  -webkit-animation: lis 3s ease;
+  animation: lis 3s ease;
+}
+#page1 .layer ul li:nth-child(4),
+#page2 .content ul li:nth-child(4),
+#page3 .content ul li:nth-child(4),
+#page4 .content ul li:nth-child(4),
+#page5 .content ul li:nth-child(4),
+#page6 .content ul li:nth-child(4) {
+  -webkit-animation: lis 3.5s ease;
+  animation: lis 3.5s ease;
+}
+#page1 .layer ul li:nth-child(5),
+#page2 .content ul li:nth-child(5),
+#page3 .content ul li:nth-child(5),
+#page4 .content ul li:nth-child(5),
+#page5 .content ul li:nth-child(5),
+#page6 .content ul li:nth-child(5) {
+  -webkit-animation: lis 4s ease;
+  animation: lis 4s ease;
+}
+#page1 .layer .img_box {
+  -webkit-animation: kuang 3s ease;
+  animation: kuang 3s ease;
+}
+#page1 .layer .word {
+  -webkit-animation: man 3s ease;
+  animation: man 1s ease;
+}
+#page1 .layer .word_en {
+  -webkit-animation: wd_en 3s ease;
+  animation: wd_en 2s ease;
+}
+#page1 .layer .word_name {
+  -webkit-animation: wd_nm 3s ease;
+  animation: wd_nm 2s ease;
+}
+#page1 .layer .job_box {
+  -webkit-animation: jb 3s ease;
+  animation: jb 3s ease;
+}
+#page1 .layer .time_box {
+  -webkit-animation: tm_box 1s ease;
+  animation: tm_box 1s ease;
+}
+#page2 .content .content_til .til_p1 {
+  -webkit-animation: p1 3s ease;
+  animation: p1 3s ease;
+}
+#page2 .content .content_til span {
+  -webkit-animation: til_span 2s ease;
+  animation: til_span 2s ease;
+}
+#page2 .content .content_til .til_p2 {
+  -webkit-animation: p2 3s ease;
+  animation: p2 3s ease;
+}
+#page2 .content .one .com_p1 {
+  -webkit-animation: com_p1 2s ease;
+  animation: com_p1 2s ease;
+}
+#page2 .content .one .com_p2 {
+  -webkit-animation: com_p2 2s ease;
+  animation: com_p2 2s ease;
+}
+#page2 .content .two .com_p1 {
+  -webkit-animation: com_p1 2.5s ease;
+  animation: com_p1 2.5s ease;
+}
+#page2 .content .two .com_p2 {
+  -webkit-animation: com_p2 2.5s ease;
+  animation: com_p2 2.5s ease;
+}
+#page2 .content .three .com_p1 {
+  -webkit-animation: com_p1 3s ease;
+  animation: com_p1 3s ease;
+}
+#page2 .content .three .com_p2 {
+  -webkit-animation: com_p2 3s ease;
+  animation: com_p2 3s ease;
+}
+#page2 .content .four .com_p1 {
+  -webkit-animation: com_p1 3.5s ease;
+  animation: com_p1 3.5s ease;
+}
+#page2 .content .four .com_p2 {
+  -webkit-animation: com_p2 3.5s ease;
+  animation: com_p2 3.5s ease;
+}
+#page2 .content .five .com_p1 {
+  -webkit-animation: com_p1 4s ease;
+  animation: com_p1 4s ease;
+}
+#page2 .content .five .com_p2 {
+  -webkit-animation: com_p2 4s ease;
+  animation: com_p2 4s ease;
+}
+#page3 .content .content_til .til_p1 {
+  -webkit-animation: p1 3s ease;
+  animation: p1 3s ease;
+}
+#page3 .content .content_til span {
+  -webkit-animation: til_span 2s ease;
+  animation: til_span 2s ease;
+}
+#page3 .content .content_til .til_p2 {
+  -webkit-animation: p2 3s ease;
+  animation: p2 3s ease;
+}
+#page3 .content .left {
+  -webkit-animation: p3_L 2s ease;
+  animation: p3_L 2s ease;
+}
+#page3 .content .left .left_p1 {
+  -webkit-animation: com_p1 2s ease;
+  animation: com_p1 2s ease;
+}
+#page3 .content .left .left_p2 {
+  -webkit-animation: com_p1 2.5s ease;
+  animation: com_p1 2.5s ease;
+}
+#page3 .content .left .left_p3 {
+  -webkit-animation: com_p1 3s ease;
+  animation: com_p1 3s ease;
+}
+#page3 .content .left .left_p4 {
+  -webkit-animation: com_p1 3.5s ease;
+  animation: com_p1 3.5s ease;
+}
+#page3 .content .left .left_p5 {
+  -webkit-animation: com_p1 4s ease;
+  animation: com_p1 4s ease;
+}
+#page3 .content .left .left_p6 {
+  -webkit-animation: com_p1 4.5s ease;
+  animation: com_p1 4.5s ease;
+}
+#page3 .content .right {
+  -webkit-animation: p3_R 2s ease;
+  animation: p3_R 2s ease;
+}
+#page3 .content .right .right_p1 {
+  -webkit-animation: com_p2 2s ease;
+  animation: com_p2 2s ease;
+}
+#page3 .content .right .right_p2 {
+  -webkit-animation: com_p2 2.5s ease;
+  animation: com_p2 2.5s ease;
+}
+#page3 .content .right .right_p3 {
+  -webkit-animation: com_p2 3s ease;
+  animation: com_p2 3s ease;
+}
+#page3 .content .right .right_p4 {
+  -webkit-animation: com_p2 3.5s ease;
+  animation: com_p2 3.5s ease;
+}
+#page3 .content .right .right_p5 {
+  -webkit-animation: com_p2 4s ease;
+  animation: com_p2 4s ease;
+}
+#page3 .content .right .right_p6 {
+  -webkit-animation: com_p2 4.5s ease;
+  animation: com_p2 4.5s ease;
+}
+#page4 .content .content_til .til_p1 {
+  -webkit-animation: p1 3s ease;
+  animation: p1 3s ease;
+}
+#page4 .content .content_til span {
+  -webkit-animation: til_span 2s ease;
+  animation: til_span 2s ease;
+}
+#page4 .content .content_til .til_p2 {
+  -webkit-animation: p2 3s ease;
+  animation: p2 3s ease;
+}
+#page4 .content .honorLeft .commonHonor .comL_p1 {
+  -webkit-animation: com_p1 2s ease;
+  animation: com_p1 2s ease;
+}
+#page4 .content .honorLeft .commonHonor .comL_p2 {
+  -webkit-animation: com_p1 2.5s ease;
+  animation: com_p1 2.5s ease;
+}
+#page4 .content .honorLeft .commonHonor .comL_p3 {
+  -webkit-animation: com_p1 3s ease;
+  animation: com_p1 3s ease;
+}
+#page4 .content .honorLeft .commonHonor .comL_p4 {
+  -webkit-animation: com_p1 3.5s ease;
+  animation: com_p1 3.5s ease;
+}
+#page4 .content .splitHr {
+  -webkit-animation: til_span 2s ease;
+  animation: til_span 2s ease;
+}
+#page4 .content .honorRight .commonHonor .comR_p1 {
+  -webkit-animation: com_p2 2s ease;
+  animation: com_p2 2s ease;
+}
+#page4 .content .honorRight .commonHonor .comR_p2 {
+  -webkit-animation: com_p2 2.5s ease;
+  animation: com_p2 2.5s ease;
+}
+#page4 .content .honorRight .commonHonor .comR_p3 {
+  -webkit-animation: com_p2 3s ease;
+  animation: com_p2 3s ease;
+}
+#page4 .content .honorRight .commonHonor .comR_p4 {
+  -webkit-animation: com_p2 3.5s ease;
+  animation: com_p2 3.5s ease;
+}
+#page5 .content .content_til .til_p1 {
+  -webkit-animation: p1 3s ease;
+  animation: p1 3s ease;
+}
+#page5 .content .content_til span {
+  -webkit-animation: til_span 2s ease;
+  animation: til_span 2s ease;
+}
+#page5 .content .content_til .til_p2 {
+  -webkit-animation: p2 3s ease;
+  animation: p2 3s ease;
+}
+#page5 .content .one_box .img_box {
+  -webkit-animation: p1 2s ease;
+  animation: p1 2s ease;
+}
+#page5 .content .one_box .desc_box {
+  -webkit-animation: p2 3s ease;
+  animation: p2 3s ease;
+}
+#page5 .content .two_box .desc_box {
+  -webkit-animation: p1 5s ease;
+  animation: p1 5s ease;
+}
+#page5 .content .two_box .img_box {
+  -webkit-animation: p2 6s ease;
+  animation: p2 6s ease;
+}
+#page6 .content .content_til .til_p1 {
+  -webkit-animation: p1 3s ease;
+  animation: p1 3s ease;
+}
+#page6 .content .content_til span {
+  -webkit-animation: til_span 2s ease;
+  animation: til_span 2s ease;
+}
+#page6 .content .content_til .til_p2 {
+  -webkit-animation: p2 3s ease;
+  animation: p2 3s ease;
+}
+#page6 .content .hobby_box {
+  -webkit-animation: suoF 3s ease;
+  animation: suoF 2s ease;
+}
+#page6 .content .hob1 {
+  -webkit-animation: suoT 2s ease;
+  animation: suoT 2s ease;
+}
+#page6 .content .hob2 {
+  -webkit-animation: suoT 2s  ease;
+  animation: suoT 2s  ease;
+}
+#page6 .content .hob3 {
+  -webkit-animation: suoT 2s  ease;
+  animation: suoT 2s  ease;
+}
+#page6 .content .hob4 {
+  -webkit-animation: suoB 2s  ease;
+  animation: suoB 2s  ease;
+}
+#page6 .content .hob5 {
+  -webkit-animation: suoB 2s  ease;
+  animation: suoB 2s  ease;
+}
+#page6 .content .hob6 {
+  -webkit-animation: suoB 2s  ease;
+  animation: suoB 2s  ease;
+}
